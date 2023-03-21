@@ -1,0 +1,20 @@
+.is-loading {
+  pointer-events: none;
+  content: '';
+  position: relative;
+
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid white;
+
+  }
+}

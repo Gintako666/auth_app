@@ -1,0 +1,12 @@
+.form {
+  margin: 50px 0;
+
+  &__text {
+    display: flex;
+    gap: 6px;
+
+    &__link {
+      color: blue;
+    }
+  }
+}
